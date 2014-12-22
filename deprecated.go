@@ -5,7 +5,7 @@
 package gin
 
 import (
-	"github.com/gin-gonic/gin/binding"
+	"github.com/go-go/gin/binding"
 	"net/http"
 )
 

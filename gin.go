@@ -5,7 +5,7 @@
 package gin
 
 import (
-	"github.com/gin-gonic/gin/render"
+	"github.com/go-go/gin/render"
 	"github.com/julienschmidt/httprouter"
 	"html/template"
 	"math"
