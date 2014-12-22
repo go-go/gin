@@ -246,8 +246,8 @@ func (c *Context) BindWith(obj interface{}, b binding.Binding) bool {
 /************************************/
 /******** RESPONSE CREATION ********/
 /************************************/
-func (c *Context) WriteHeader(key, value string) {
-	c.Writer.Header().Write(key, value)
+func (c *Context) AddHeader(key, value string) {
+	c.Writer.Header().Add(key, value)
 }
 
 /************************************/
