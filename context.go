@@ -209,7 +209,7 @@ func (c *Context) ClientIP() string {
 }
 
 /************************************/
-/********* PARSING REQUEST **********/
+/******** ENCODING MANAGEMENT********/
 /************************************/
 
 // This function checks the Content-Type to select a binding engine automatically,
